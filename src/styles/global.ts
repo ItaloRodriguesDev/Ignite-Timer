@@ -17,10 +17,12 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(propos) => propos.theme['gray-300']};
     }
 
-  border-style, input, textarea, button {
+  body, input, textarea, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    
+    
   }
 
 `
